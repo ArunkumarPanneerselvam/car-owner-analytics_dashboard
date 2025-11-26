@@ -3,7 +3,7 @@ import plotly.express as px
 from dash import Dash, dcc, html, Input, Output
 
 # Load dataset
-df = pd.read_csv("D:/MInfoTech_Waikato/Assignements/COMPX532/Assignment_3/car_owner_data.csv")
+df = pd.read_csv("car_owner_data.csv")
 
 # Initialize Dash app
 app = Dash(__name__)
