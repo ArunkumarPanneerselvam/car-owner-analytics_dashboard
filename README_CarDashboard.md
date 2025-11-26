@@ -296,9 +296,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: @ArunkumarPanneerselvam (https://github.com/ArunkumarPanneerselvam)
+- LinkedIn: Arunkumar Panneerselvam (https://www.linkedin.com/in/arunkumarpanneerselvam/)
+
 
 ## 🙏 Acknowledgments
 
@@ -311,8 +311,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, suggestions, or collaboration opportunities:
 - Open an issue on GitHub
-- Email: your.email@example.com
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
+
 
 ## 📈 Project Stats
 
@@ -328,5 +327,4 @@ For questions, suggestions, or collaboration opportunities:
 **⭐ If you find this project helpful, please give it a star!**
 
 **🔗 Related Projects:**
-- [Weather Dashboard](https://github.com/yourusername/weather-dashboard)
-- [Sales Analytics Dashboard](https://github.com/yourusername/sales-dashboard)
+- [Weather Dashboard](https://github.com/ArunkumarPanneerselvam/weather-dashboard)
