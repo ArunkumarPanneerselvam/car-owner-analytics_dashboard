@@ -1,103 +1,126 @@
-Contributing to Car Owner Analytics Dashboard
+# Contributing to Car Owner Analytics Dashboard
+
 Thank you for your interest in contributing! This document provides guidelines for contributing to the project.
 
-How to Contribute
-Reporting Bugs
+## How to Contribute
+
+### Reporting Bugs
+
 Before submitting a bug report:
-
-Check existing issues to avoid duplicates
-
-Test with the latest version
-
-Gather relevant information (Python version, OS, error messages)
+- Check existing issues to avoid duplicates
+- Test with the latest version
+- Gather relevant information (Python version, OS, error messages)
 
 Create a detailed bug report including:
+- Clear description of the issue
+- Steps to reproduce
+- Expected vs actual behavior
+- Screenshots or error messages
+- Environment details (Python version, OS, browser)
 
-Clear description of the issue
+### Suggesting Features
 
-Steps to reproduce
-
-Expected vs actual behavior
-
-Screenshots or error messages
-
-Environment details (Python version, OS, browser)
-
-Suggesting Features
 Feature requests are welcome! Include:
+- Clear description of the feature
+- Use cases and benefits
+- Potential implementation approach
+- Examples from other projects (if applicable)
 
-Clear description of the feature
+### Pull Requests
 
-Use cases and benefits
+1. Fork the repository
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes:
+   - Write clear, commented code
+   - Follow PEP 8 style guidelines
+   - Add docstrings to functions
+   - Update documentation as needed
 
-Potential implementation approach
+4. Test your changes:
+   - Run the data generator
+   - Test dashboard functionality
+   - Check all filters work correctly
+   - Verify visualizations display properly
 
-Examples from other projects (if applicable)
+5. Commit with clear messages:
+   ```bash
+   git commit -m "Add: brief description of changes"
+   ```
 
-Pull Requests
-Fork the repository
+6. Push to your fork:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
 
-Create a feature branch:
+7. Open a Pull Request with:
+   - Clear title and description
+   - Link to related issues
+   - Screenshots (if UI changes)
+   - Test results
 
-bash
-git checkout -b feature/your-feature-name
-Make your changes:
+## Code Standards
 
-Write clear, commented code
+### Python Style
+- Follow PEP 8 guidelines
+- Use meaningful variable names
+- Maximum line length: 100 characters
+- Use type hints where appropriate
 
-Follow PEP 8 style guidelines
+### Code Organization
+- Keep functions focused and concise
+- Add docstrings to all functions
+- Group related functionality
+- Use constants for magic numbers
 
-Add docstrings to functions
+### Example Function Structure
+```python
+def filter_data(df: pd.DataFrame, filters: dict) -> pd.DataFrame:
+    """
+    Filter dataframe based on provided criteria.
 
-Update documentation as needed
+    Args:
+        df: Input dataframe
+        filters: Dictionary of filter criteria
 
-Test your changes:
+    Returns:
+        Filtered dataframe
+    """
+    # Implementation
+    return filtered_df
+```
 
-Run the data generator
+## Testing
 
-Test dashboard functionality
+Before submitting:
+- Test data generation with different parameters
+- Verify all dashboard filters work
+- Test with different data sizes
+- Check browser console for errors
+- Test on multiple browsers (Chrome, Firefox, Safari)
 
-Check all filters work correctly
+## Documentation
 
-Verify visualizations display properly
+Update documentation for:
+- New features or filters
+- Changed functionality
+- New dependencies
+- Configuration options
 
-Commit with clear messages:
+## Questions?
 
-bash
-git commit -m "Add: brief description of changes"
-Push to your fork:
+Feel free to:
+- Open an issue for discussion
+- Ask questions in pull requests
+- Contact maintainers directly
 
-bash
-git push origin feature/your-feature-name
-Open a Pull Request with:
+## Code of Conduct
 
-Clear title and description
+- Be respectful and inclusive
+- Provide constructive feedback
+- Focus on the code, not the person
+- Help others learn and grow
 
-Link to related issues
-
-Screenshots (if UI changes)
-
-Test results
-
-Code Standards
-Python Style
-Follow PEP 8 guidelines
-
-Use meaningful variable names
-
-Maximum line length: 100 characters
-
-Use type hints where appropriate
-
-Code Organization
-Keep functions focused and concise
-
-Add docstrings to all functions
-
-Group related functionality
-
-Use constants for magic numbers
-
-Example Function Structure
-python
-def filter_data(df: pd.DataFrame, filters: dic
+Thank you for contributing! 🎉
